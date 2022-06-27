@@ -37,7 +37,7 @@ En revanche il est clair qu’il y a une corrélation faible voire nulle entre �
 
 
 all_symbols = df.continent.unique()
-options = st.multiselect("Choose stocks to visualize", all_symbols, all_symbols[:3])
+options = st.multiselect("Choose continent to visualize", all_symbols, all_symbols[:3])
 
 st.write('You selected:', options)
 
