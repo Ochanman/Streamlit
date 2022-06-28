@@ -45,7 +45,6 @@ df_choice = df[df.continent.isin(options)]
 
 
 
-
 fig, ax= plt.subplots(figsize = (60,50))
 
 plt.suptitle('Correlation par région', size = 50)
@@ -73,3 +72,4 @@ ax4.set_ylabel("hp",fontsize=40)
 
 
 st.pyplot(ax.figure)
+st.write('Fin')
